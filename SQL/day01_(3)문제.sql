@@ -4,6 +4,10 @@ tbl_carco2 테이블의 데이터를 조회하는 예시를 만들어 보세요.
 각자 7개 씩
  */
 
+ -- (샘플) car 가 무엇이 있나요?
+ SELECT DISTINCT CAR FROM TBL_CARCO2;
+ -- distinct 키워드 : 칼럼값 하나 조회할 때, 중복을 제거한 결과
+
  -- 1. volume 이 2100 이상인 모든 컬럼 조회
  SELECT * FROM TBL_CARCO2 WHERE volume >= 2100;
 
