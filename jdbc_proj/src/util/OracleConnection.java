@@ -17,6 +17,7 @@ public class OracleConnection {
         Connection connection = null;
         try {
             connection = DriverManager.getConnection(URL, USERNAME, PASSWORD);
+            connection.setAutoCommit(false);
         } catch (SQLException e) {
             System.out.println("오라클 db 연결 실패 : " + e.getMessage());
         }
