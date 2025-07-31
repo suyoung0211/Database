@@ -1,6 +1,6 @@
 CREATE TABLE tbl_carco2 (
     car VARCHAR2(50),
-    moeld VARCHAR2(50),
+    model VARCHAR2(50),
     volume NUMBER(4),
     weight NUMBER(4),
     co2 NUMBER(3)
