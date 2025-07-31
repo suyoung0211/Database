@@ -27,10 +27,10 @@ VALUES (33, 'connection', '연결, 접속', '2')
 ### 1. JDBC 드라이버 로딩
     - oracle.jdbc.driver.OracleDirver
 
-### 2. JDBC 드라이버 로딩
+### 2. 데이터 베이스와 연결
     - 연결 결과로 Connection 타입 객체 생성
 
-### 2. JDBC 드라이버 로딩
+### 2. SQL문 작성 및 SQL 실행 객체 생성
     - Statement 타입의 실행 객체 생성
         * SQL 실행에 필요한 값을 포함하여 SQL 명령을 완성합니다.
         * SQL 이 실행될 때마다 파싱(parsing)
