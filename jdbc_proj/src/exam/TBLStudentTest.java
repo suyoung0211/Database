@@ -61,8 +61,7 @@ public class TBLStudentTest {
             pstat.executeUpdate(); // 이 메소드는 commit 을 직접하지 않아도 close 할 때 commit 을 수행
 
             // 여기 부분까지는 정상실행
-            // int test = Integer.parseInt(name); // rollback 테스트 예외 발생 -
-            // NumberFormatException 발생
+            // int test = Integer.parseInt(name); // rollback 테스트 예외 발생 - NumberFormatException 발생
 
             System.out.println("1개 행이 저장되었습니다.");
 
