@@ -66,7 +66,8 @@ WHERE STUNO in (
 SELECT stu.STUNO, stu.NAME
 FROM TBL_STUDENT stu
 JOIN TBL_SCORE sco
-ON stu.STUNO = sco.STUNO AND sco.JUMSU >= 90
+ON stu.STUNO = sco.STUNO
+WHERE sco.JUMSU >= 90
 ORDER BY stu.NAME;
 
 -- 3. OUTER JOIN(외부조인) : 지정된 
