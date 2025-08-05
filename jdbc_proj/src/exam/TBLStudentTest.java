@@ -58,7 +58,7 @@ public class TBLStudentTest {
             pstat.setString(2, name);
             pstat.setString(3, age); // setInt(3, null) 불가 오라클에서는 문자열을 number 타입으로 자동캐스팅
             pstat.setString(4, address);
-            pstat.executeUpdate(); // 이 메소드는 commit 을 직접하지 않아도 close 할 때 commit 을 수행
+            pstat.executeUpdate(); // 이 커넥션 방식은 commit 을 직접하지 않아도 close 할 때 commit 을 수행
 
             // 여기 부분까지는 정상실행
             // int test = Integer.parseInt(name); // rollback 테스트 예외 발생 - NumberFormatException 발생

@@ -4,6 +4,9 @@
     "java.project.referencedLibraries": [
         "lib/**/*.jar",
         "c:\\Class250615\\lib\\lombok.jar",
-        "c:\\Class250615\\lib\\ojdbc8.jar"
+        "c:\\Class250615\\lib\\ojdbc8.jar",
+        "c:\\Class250615\\lib\\HikariCP-6.2.1.jar",
+        "c:\\Class250615\\lib\\slf4j-api-2.0.16.jar",
+        "c:\\Class250615\\lib\\slf4j-simple-2.0.16.jar"
     ]
 }
