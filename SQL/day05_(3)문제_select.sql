@@ -88,7 +88,7 @@ WHERE buy.CUSTOMER_ID='twice';
 
 ---- 구매 행(건수) 중에서 구매 금액이 가장 높은 것을 찾아보자. 10번 문제에 customer_id 컬럼 추가 조회
 ---- 오라클 FETCH 명령이 있습니다.(12c 버전 이상)
----- FETCH 는 결과 행 집합을 커서로 접근 할 수 있습니다.(first, last 등....)
+---- FETCH 는 결과 행 집합을 커서로 접근 할 수 있습니다.(first, next 등....)
 select tp.PCODE,tp.PNAME, tp.PRICE , tp.PRICE*tb.QUANTITY as "구매금액"
 from TBL_PRODUCT tp
 join TBL_BUY tb
