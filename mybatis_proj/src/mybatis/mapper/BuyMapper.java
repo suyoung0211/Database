@@ -16,7 +16,7 @@ public interface BuyMapper {
   int selectSumByPcode(String pcode);
 
   // join
-  List<CustomerBuyVo> selectBuyByCustomer(String cutomer_id);
+  List<CustomerBuyVo> selectSaleByCustomer(String cutomer_id);
 
   // count 집계 합수
   Map<String, Integer> selectCountByYear(String year);
